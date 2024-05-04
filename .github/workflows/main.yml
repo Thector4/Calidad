@@ -46,13 +46,11 @@ jobs:
       - name: Set-up Node
         uses: actions/setup-node@v1
         with: 
-         node-version: 10.x
+          node-version: 10.x
       - name: Install Dependencies
         run: npm i eslint@5.16.0
-      - name: List files in directory
-        run: ls -la
       - name: Lint
-        run: node_modules/eslint/bin/eslint.js romans.js   
+        run: node_modules/eslint/bin/eslint.js --config eslintrc.js romans.js
 
   deploy:
     environment:
