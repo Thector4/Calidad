@@ -43,7 +43,7 @@ jobs:
       - name: Install ESLint
         run: npm i eslint@5.16.0
       - name: Lint
-        run: node_modules/eslint/bin/eslint.js romans.js  
+        run: node_modules/eslint/bin/eslintrc.js romans.js  
 
   deploy:
     environment:
