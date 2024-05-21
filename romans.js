@@ -100,7 +100,7 @@ const convertRomanToInteger = function(roman) {
 
   gtag('event', 'RomanToInteger_calculated', {
     'RomanNumber': response
-  }
+  });
 
   
 };
