@@ -97,6 +97,12 @@ const convertRomanToInteger = function(roman) {
   response.result = true;
 
   return response;
+
+  gtag('event', 'RomanToInteger_calculated', {
+    'RomanNumber': response
+  }
+
+  
 };
 
 // Now the convertion methods receive both an input argument instead
