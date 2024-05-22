@@ -160,7 +160,10 @@ const convertIntegerToRoman = function(num) {
 
   response.value = str;
   response.result = true;
-
+  
+  gtag('event', 'IntegerToRoman_calculated', {
+    'IntegerNumber': response
+  });
   return response;
 };
 
