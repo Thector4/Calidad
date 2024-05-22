@@ -30,4 +30,7 @@ module.exports = {
             "always"
         ]
     }
+      globals: {
+    gtag: 'readonly'
+    }
 };
