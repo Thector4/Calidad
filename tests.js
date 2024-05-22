@@ -1,3 +1,5 @@
+window.gtag = function() {
+
 test("A-Rules", function(assert) {
   assert.propEqual(convertRomanToInteger("MMMCMXCIX"), {value: 3999, message: '', result: true}, "TC-A-1");
   assert.propEqual(convertRomanToInteger("cdlvi"), {value: 456, message: '', result: true}, "TC-A-2");
